@@ -1,0 +1,100 @@
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: center;
+}
+header h1, p{
+    text-align: center;
+}
+header ul{
+    list-style: none;
+    display: block;
+    margin-top: 25px;
+}
+
+header ul li{
+    display: inline;
+    padding: 25px;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* NAVBAR END */
+
+/* HOME SECTİON START */
+
+.home-section h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+.home-section p{
+    font-size: 20px;
+}
+.home-section ul{
+    list-style-position: inside;
+    text-align: center;
+}
+
+.home-section ul li{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* HOME SECTİON END */
+
+
+
+/* PRODUCT SECTİON START */
+
+.product-section .container{
+    justify-content: center;
+}
+
+.product-section .container h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+
+.product-section .product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-section .product img{
+    height: 300px;
+    width: 300px;
+}
+
+.product-section h2{
+    text-align: center;
+    color: crimson;
+}
+/* PRODUCT SECTİON END */
+
+/* ABOUT SECTİON START */
+.about-section h1{
+    text-align: center;
+}
+.about-section .container p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about-section h1{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+
+.about-section .container h2{
+    color: red;
+}
+/* ABOUT SECTİON END */
