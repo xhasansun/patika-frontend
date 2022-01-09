@@ -1,0 +1,24 @@
+.container{
+    text-align: center;
+}
+
+
+.content-wrapper{
+    margin: auto;
+    width: 90%;
+    background-color: #EEEEEE;
+}
+
+.search-area p{
+    font-size: 17px;
+    margin-bottom: -1px;
+}
+
+input{
+    width: 350px;
+    height: 21px;
+}
+
+button{
+    font-size: 17px;
+}
