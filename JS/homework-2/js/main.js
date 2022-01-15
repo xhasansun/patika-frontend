@@ -18,6 +18,9 @@ function newElement() {
 }
 
 
+
+/* Liste Elamanı ve Liste elemanı içine span eklenen kod bloğu */
+
 function addItem(task) {
     let liDOM = document.createElement('li')
     let spanDOM = document.createElement('span')
@@ -30,6 +33,8 @@ function addItem(task) {
     userList.append(liDOM)
 }
 
+
+/* Listeden eleman çıkardığımız kod bloğu */
 function deleteFunction(){
     
     let close = document.getElementsByClassName("close");
@@ -42,17 +47,7 @@ function deleteFunction(){
     }
 }
 
-function key(){
-    document.getElementById('liveToastBtn')
-    .addEventListener('keyup', function(event) {
-        if (event.code === 'Enter')
-        {
-            event.preventDefault();
-            document.querySelector('form').submit();
-        }
-    });
-}
-
+/* Liste elamanlarının üstüne tıklanınce gerçekleşen eventlerin kod bloğu (renk değişimi, üstü çizili, soluna check işareti) */
 
 let list = document.querySelector('#list');
 list.addEventListener('click', function (event) {
