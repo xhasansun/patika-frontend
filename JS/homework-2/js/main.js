@@ -13,7 +13,6 @@ function newElement() {
         TASK.value = ""
         $('.success').toast('show')
     }
-    key()
     deleteFunction()
 }
 
@@ -47,8 +46,8 @@ function deleteFunction(){
     }
 }
 
-/* Liste elamanlarının üstüne tıklanınce gerçekleşen eventlerin kod bloğu (renk değişimi, üstü çizili, soluna check işareti) */
 
+/* Üstüne tıklandığında eventlerin gerçekleştiği kod bloğu (renk değişimi, üstünü çizme, solunca check işareti atma) */
 let list = document.querySelector('#list');
 list.addEventListener('click', function (event) {
     if (event.target.tagName === 'LI') {
