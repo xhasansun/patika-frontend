@@ -47,7 +47,7 @@ function deleteFunction(){
 }
 
 
-/* Üstüne tıklandığında eventlerin gerçekleştiği kod bloğu (renk değişimi, üstünü çizme, solunca check işareti atma) */
+/* Üstüne tıklandığında eventlerin gerçekleştiği kod bloğu (renk değişimi, üstünü çizme, solunca check işareti) */
 let list = document.querySelector('#list');
 list.addEventListener('click', function (event) {
     if (event.target.tagName === 'LI') {
